@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      background-color: #000000;
+      background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+      font-family: "poppins";
+    }
+    .main {
+        height: 100vh;
+        position: relative;
+
+    }
+    
+    
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      padding: 10px;
+      border-radius: 1em;
+      height: 380px;
+      width: 400px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .display-box {
+      background-color: #dcdbe1;
+      border: solid black 0.5px;
+      width: 100%;
+      color: black;
+      border-radius: 5px;
+      height: 65%;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  .button {
+      font-family: "poppins";
+      color: rgb(255, 255, 255);
+      border: solid rgb(0, 0, 0) 0.1px;
+      width: 100%;
+      border-radius: 5px;
+      height: 70%;
+      background-color: rgb(0, 0, 0);
+      cursor: pointer;
+     
+  }
+  
+.button:hover{
+  background-color: rgb(78, 78, 78);
+}
+
+.grad:hover{
+  color: rgb(78, 78, 78);
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button:active {
+  /* content: '';
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px; */
+  background: linear-gradient(90deg, #FFFF00 6%, #FFA500 25%, #F14444 45%, #D53567 55%, #9A109A 94%);
+  transition: 256ms all;
+  z-index: -1;
+}
+
+input[type="text"] {
+  padding: 0px 30px;
+  /* font-size: 24px; */
+  font-weight: bold;
+  font-family: poppins;
+}
+
+.grad:active {
+    /* content: '';
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px; */
+    background: linear-gradient(90deg, #9A109A 6%, #D53567 25%, #F14444 45%, #FFA500 55%, #FFFF00 94%);
+   -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+   -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+   box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+
+ /* .display-box:active{
+  border:5px solid linear-gradient(90deg, #9A109A 6%, #D53567 25%, #F14444 45%, #FFA500 55%, #FFFF00 94%);
+ } */
+
